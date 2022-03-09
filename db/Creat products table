@@ -1,0 +1,24 @@
+Create table Products (
+Prodcut_ID integer primary key ,
+Product_Name text,
+Product_Descr text,
+Product_Category text,
+Unit_Price real
+);
+
+insert into Products (Product_Name, Product_Descr, Product_Category,Unit_Price) values ('Add Wash','Washing Machine','Home Appliances',350);
+insert into Products (Product_Name, Product_Descr, Product_Category,Unit_Price) values ('4 Doors Flex','Refrigerator','Home Appliances',1500);
+insert into Products (Product_Name, Product_Descr, Product_Category,Unit_Price) values ('Chef Collection','Dishwasher','Home Appliances',854);
+insert into Products (Product_Name, Product_Descr, Product_Category,Unit_Price) values ('Grill','Microwave','Home Appliances',187);
+insert into Products (Product_Name, Product_Descr, Product_Category,Unit_Price) values ('Power Bot','Vaccum Cleaner','Home Appliances',999);
+insert into Products (Product_Name, Product_Descr, Product_Category,Unit_Price) values ('Galaxy S7','Smart Phone','Mobile Phone',850);
+insert into Products (Product_Name, Product_Descr, Product_Category,Unit_Price) values ('Galaxy Note 8','Smart Phone','Mobile Phone',850);
+insert into Products (Product_Name, Product_Descr, Product_Category,Unit_Price) values ('iPhone 13 pro','Smart Phone','Mobile Phone',1150);
+insert into Products (Product_Name, Product_Descr, Product_Category,Unit_Price) values ('Galaxy tab 7','Smart Phone','Tablet',400);
+insert into Products (Product_Name, Product_Descr, Product_Category,Unit_Price) values ('Notebook 9','Laptop','laptop',840);
+
+
+
+
+
+select * from Products;

@@ -1,0 +1,22 @@
+Create table Employee (
+Employee_ID integer primary key ,
+First_Name text,
+Last_Name text,
+City_ID integer);
+
+insert into Employee (First_Name, Last_Name, City_ID) values ('Eddile','Lucius',2);
+insert into Employee (First_Name, Last_Name, City_ID) values ('Mick','Sabina',4);
+insert into Employee (First_Name, Last_Name, City_ID) values ('Fred','Tabor',3);
+insert into Employee (First_Name, Last_Name, City_ID) values ('Lisa','Fane',7);
+insert into Employee (First_Name, Last_Name, City_ID) values ('Taylor','Max',9);
+insert into Employee (First_Name, Last_Name, City_ID) values ('Saul','Bart',14);
+insert into Employee (First_Name, Last_Name, City_ID) values ('Jeff','Clark',20);
+insert into Employee (First_Name, Last_Name, City_ID) values ('Jane','Harry',20);
+insert into Employee (First_Name, Last_Name, City_ID) values ('Luke','Keen',0);
+insert into Employee (First_Name, Last_Name, City_ID) values ('Jimmy','Darrok',0);
+
+
+update  employee set City_ID=0  where employee_id=11;
+
+
+select * from employee;
