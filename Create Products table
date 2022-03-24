@@ -1,0 +1,23 @@
+drop table Products;
+CREATE TABLE Products (
+    Product_ID   INTEGER PRIMARY KEY,
+    Product_Name TEXT,
+    UnitPrice   REAL,
+    UnitsInStock NUMERIC,
+    UnitsOnOrder NUMERIC
+);
+
+INSERT INTO Products 
+(Product_ID,Product_Name, UnitPrice, UnitsInStock, UnitsOnOrder)
+values
+(1, 'Shampoo',10.45,16,15),
+(2, 'Tissue',8,16,null),
+(3, 'Tooth Paste',7.2,28,40),
+(4, 'Razor',12,16,60),
+(5, 'Bleach',15,16,30),
+(6, 'Tawel',18.2,16,90),
+(7, 'Lighter',5,16,null),
+(8, 'Paint',22,16,null);
+
+
+select * from products;
